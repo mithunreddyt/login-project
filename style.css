@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*header control area*/
+.header{
+    margin: 0px;
+    background-color: darkblue;
+    height: 100px;
+}
+/*header-title control area*/
+#header-title{
+    color: white;
+    width:115px;
+    margin-left:200px;
+    padding-top: 40px;
+    padding-bottom: 27px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px; 
+    float:left;
+}
+#header-title:hover{
+    cursor: pointer;
+}
+/*header-login control area which is in header-title id*/
+#header-login{
+    display: inline-block;
+    color: white;
+    font-family: arial;
+    font-size: bold;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 33px;
+}
+/*email control area which is header login*/
+#email{
+    float:left;
+    position: relative;
+}
+#pass{
+    position: relative;
+    margin-left: 10px;
+    float:right;
+}
+#btn{
+    position: relative;
+    float: right;
+    margin-left: 10px; 
+}
+#btn button{
+    background-color: darkblue;
+    color: white;
+    border: .5px solid black;
+    padding: 2px 4px;
+    
+}
+#btn button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#header-login input:focus{
+    border-color: blue;  
+}
+/*----------------Main content starts here----------*/
+.main{
+    margin:0px;
+    padding: 0px;
+    padding-bottom: 50px;
+    background-color: lightgrey;
+}
+#logins{
+    display: inline-block;
+    font-family: arial;
+}
+h1{
+    display: inline-block;
+}
+#new{
+    display:inline-block;
+    float:right;
+    width:500px;
+    margin: 0px 125px;
+    font-family: arial; 
+    margin-top:15px;
+}
+#main-h{
+    font-size:40px;
+    margin:0px;
+    padding-left: 32px;    
+}
+#main-sub{
+    font-size:20px;
+    margin-left: 33px;
+    font-weight: normal;
+    line-height: 45px;
+}
+#holder{
+    padding-left: 33px;
+    
+}
+#name input{
+    border-radius:5px;
+    height: 30px;
+    padding-left:10px;
+    width: 200px;
+}
+#name input:hover{
+    border-color: lightblue;
+}
+#ema input{
+    height:30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 420px;
+}
+#pas input{
+    height:30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 420px;
+    margin-top: 20px
+}
+
+#bday p{
+    margin: 0 32px;
+    padding-top:15px;   
+}
+#da{
+    margin-left: 32px;
+    margin-top:10px;
+    display: inline-block;
+}
+#dy{
+    display: inline-block;
+}
+#dy select{
+    width: 65px;
+    height: 27px;
+}
+#mo{
+    float: right;
+    display: inline-block;
+}
+#ye{
+    float:right;
+    display: inline-block;
+}
+
+
+
+/*break here take a break*/
+a{
+    text-decoration: none;
+    color:blue;
+    font-size: 12px;
+    display: inline-block;
+}
+
+#gen{
+    padding-left:35px;
+    padding-top: 5px;
+    margin:5px;
+    cursor: pointer;
+}
+#terms{
+    margin-left: 35px;
+    line-height: 1em;
+    font-size: 15px;
+}
+#btn-1{
+    margin-left: 27px;
+    height:40px;
+    padding: 10px 20px;
+    width: 210px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;  
+    border-color: darkgreen;
+    margin-bottom: 5px;
+}
+#btn-1:hover{
+    background-color: green;
+    cursor: pointer;
+    border-color: darkgreen;
+}
+#cel{
+    margin-left: 35px;
+    font-weight: bold;
+}
+.footer{
+    background-color: black;
+    color:white; 
+    margin: 0px;
+    padding:0px;
+    display: inline-block;
+    width: 100%;
+}
+#fo{
+    margin-left: 20px;
+    font-family: cursive;
+    padding:20px;
+}
+#rig{
+float:right;
+}
+#rig a{
+    color:white;
+    margin-right:145px;
+    font-weight: bold;
+}
+
+
+
+
+
+
